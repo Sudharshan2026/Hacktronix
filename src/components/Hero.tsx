@@ -45,7 +45,7 @@ const Hero = () => {
           <div className="text-center max-w-4xl mx-auto">
             <div className="mb-8">
               <GooeyText
-                texts={["HackerTronix 1.0", "Hack The Future", "Code The Unknown", "Build Tomorrow"]}
+                texts={["HackerTronix 1.0", "Prabhu"]}
                 morphTime={1}
                 cooldownTime={0.25}
                 className="font-bold"

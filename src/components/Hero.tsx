@@ -46,8 +46,8 @@ const Hero = () => {
             <div className="mb-8">
               <GooeyText
                 texts={["HackerTronix 1.0", "Hack The Future", "Code The Unknown", "Build Tomorrow"]}
-                morphTime={4}
-                cooldownTime={0.15}
+                morphTime={1}
+                cooldownTime={0.25}
                 className="font-bold"
                 textClassName="bg-clip-text text-transparent bg-gradient-to-r from-indigo-300 via-white/90 to-rose-300"
               />

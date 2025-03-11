@@ -1,9 +1,9 @@
 "use client";
 
-import { motion, useMotionValue, useTransform, animate } from "framer-motion";
+import { motion } from "framer-motion";
 import { Circle } from "lucide-react";
-import { useEffect, useState } from "react";
-import { cn } from "@/lib/utils";
+// import { useEffect, useState } from "react";
+import { cn } from "./lib/utils";
 
 
 function ElegantShape({
@@ -75,7 +75,7 @@ function ElegantShape({
 function HeroGeometric({
     badge = "Design Collective",
     title1 = "Elevate Your Digital Vision",
-    title2 = "Crafting Exceptional Websites",
+    // title2 = "Crafting Exceptional Websites",
 }: {
     badge?: string;
     title1?: string;

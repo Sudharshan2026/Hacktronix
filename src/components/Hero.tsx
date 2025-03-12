@@ -94,7 +94,7 @@ const Hero: React.FC = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <GlowingButton text="Register Now" href="https://forms.gle/YOUR_GOOGLE_FORM_LINK" />
+              <GlowingButton text="Register Now" href="https://sudharshan2026.github.io" />
               <UiverseButton text="Brochure" href={brochure} />
             </div>
           </div>

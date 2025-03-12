@@ -1,7 +1,7 @@
 
 import React, { useEffect } from 'react';
-import TeamSection from '@/components/TeamSection';
-import ParticleBackground from '@/components/ParticleBackground';
+import TeamSection from 'TeamSection';
+import ParticleBackground from 'ParticleBackground';
 
 const OrganizersPage = () => {
   const keyPersons = [

@@ -86,7 +86,7 @@ const Hero: React.FC = () => {
             </p>
 
             {/* Countdown Timer */}
-            <div className="grid grid-cols-1 sm:grid-cols-4 gap-4 mb-12 max-w-2xl mx-auto">
+            <div className="flex justify-center gap-6 mb-12 max-w-2xl mx-auto">
               <CountdownBlock value={timeLeft.days} label="Days" />
               <CountdownBlock value={timeLeft.hours} label="Hours" />
               <CountdownBlock value={timeLeft.minutes} label="Minutes" />

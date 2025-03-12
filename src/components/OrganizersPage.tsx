@@ -71,6 +71,7 @@ const OrganizersPage: React.FC = () => {
 
   const overallCoordinators: TeamMember[] = [
     { name: "Pradeep S", position: "Chairperson", image: "Pradeep.jpg", linkedin: "https://www.linkedin.com/in/pradeeptechno/" },
+    { name: "Tharushi S S", position: "Vice Chairperson", image: "Tharushi.jpg", linkedin: "https://www.linkedin.com/in/tharushi-s-s" },
     { name: "Tharushi S S", position: "Vice Chairperson", image: "Tharushi.jpg", linkedin: "https://www.linkedin.com/in/tharushi-s-s" }
   ];
 

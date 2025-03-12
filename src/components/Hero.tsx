@@ -12,7 +12,7 @@ interface TimeLeft {
 }
 
 const Hero: React.FC = () => {
-  const targetDate: number = new Date("April 5, 2025 00:00:00").getTime();
+  const targetDate: number = new Date("April 11, 2025 00:00:00").getTime();
   const [timeLeft, setTimeLeft] = useState<TimeLeft>(calculateTimeLeft());
 
   function calculateTimeLeft(): TimeLeft {

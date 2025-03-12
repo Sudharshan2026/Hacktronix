@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import baffle from "baffle";
-import dragon from "./assets/dragon_background.mp4";
+import dragon from "./assets/dragon_background.mp4"
 import brochure from "./assets/hackatronix brochure.pdf";
 import { UiverseButton, GlowingButton } from "./Buttons";
 
@@ -67,6 +67,7 @@ const Hero: React.FC = () => {
         <source src={dragon} type="video/mp4" />
       </video>
 
+
       {/* Overlay for better text visibility */}
       <div className="absolute inset-0 bg-black/20"></div>
 
@@ -76,26 +77,26 @@ const Hero: React.FC = () => {
           <div className="text-center max-w-4xl mx-auto">
             {/* Glitch Effect Title */}
             <div className="mb-10">
-              <h1 className="glitch-text font-bold text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-blue-600">
+              <h1 className="glitch-text font-bold text-4xl sm:text-5xl md:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-blue-600">
                 HackTronix 1.0
               </h1>
             </div>
 
-            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white/40 mb-8 leading-relaxed font-light tracking-wide max-w-xl mx-auto px-4">
+            <p className="text-base sm:text-lg md:text-xl text-white/40 mb-8 leading-relaxed font-light tracking-wide max-w-xl mx-auto px-4">
               A 24-hour hackathon exploring the upside-down world of technology
             </p>
 
             {/* Countdown Timer */}
-            <div className="flex justify-center gap-6 mb-12 max-w-2xl mx-auto">
-              <CountdownBlock value={timeLeft.days} label="Days" />
-              <CountdownBlock value={timeLeft.hours} label="Hours" />
-              <CountdownBlock value={timeLeft.minutes} label="Minutes" />
-              <CountdownBlock value={timeLeft.seconds} label="Seconds" />
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12 max-w-2xl mx-auto">
+              <TimeBlock value={timeLeft.days} label="Days" />
+              <TimeBlock value={timeLeft.hours} label="Hours" />
+              <TimeBlock value={timeLeft.minutes} label="Minutes" />
+              <TimeBlock value={timeLeft.seconds} label="Seconds" />
             </div>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <GlowingButton text="Register Now" href="https://forms.gle/YOUR_GOOGLE_FORM_LINK" />
-              <UiverseButton text="Brochure" href={brochure} />
+              <UiverseButton text="Brouchre" href={brochure} />
             </div>
           </div>
         </div>
@@ -104,22 +105,14 @@ const Hero: React.FC = () => {
   );
 };
 
-interface CountdownBlockProps {
+interface TimeBlockProps {
   value: number;
   label: string;
 }
 
-const CountdownBlock: React.FC<CountdownBlockProps> = ({ value, label }) => (
-  <div className="flex flex-col items-center justify-center text-center">
-    <span className="countdown font-mono text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
-      <span
-        style={{ "--value": value } as React.CSSProperties}
-        aria-live="polite"
-        aria-label={String(value)}
-      >
-        {value}
-      </span>
-    </span>
+const TimeBlock: React.FC<TimeBlockProps> = ({ value, label }) => (
+  <div className="bg-black/50 backdrop-blur-sm border border-red-900/30 rounded-lg p-4 flex flex-col items-center justify-center">
+    <span className="text-3xl md:text-4xl font-bold text-white">{value}</span>
     <span className="text-sm text-gray-400">{label}</span>
   </div>
 );

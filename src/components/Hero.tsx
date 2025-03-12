@@ -81,7 +81,7 @@ const Hero: React.FC = () => {
               </h1>
             </div>
 
-            <p className="text-base sm:text-lg md:text-xl text-white/40 mb-8 leading-relaxed font-light tracking-wide max-w-xl mx-auto px-4">
+            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white/40 mb-8 leading-relaxed font-light tracking-wide max-w-xl mx-auto px-4">
               A 24-hour hackathon exploring the upside-down world of technology
             </p>
 
@@ -111,7 +111,7 @@ interface CountdownBlockProps {
 
 const CountdownBlock: React.FC<CountdownBlockProps> = ({ value, label }) => (
   <div className="flex flex-col items-center justify-center text-center">
-    <span className="countdown font-mono text-5xl">
+    <span className="countdown font-mono text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
       <span
         style={{ "--value": value } as React.CSSProperties}
         aria-live="polite"

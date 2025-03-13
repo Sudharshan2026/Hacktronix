@@ -13,6 +13,7 @@ import WhyJoinUs from "./components/WhyJoinUs";
 import Domains from "./components/Domains";
 import Results from "./components/Results";
 import Preloader from "./components/Preloader";
+import Prizes from "./components/Prizes";
 
 function ScrollToHashElement() {
   const location = useLocation();
@@ -61,6 +62,7 @@ function App() {
               <div>
                 <Hero />
                 <Description />
+                <Prizes />
                 <WhyJoinUs />
                 <TimelineSection />
                 <CollegeMap />

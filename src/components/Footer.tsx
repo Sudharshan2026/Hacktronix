@@ -22,30 +22,52 @@ const Footer: React.FC = () => {
 
             <div>
               <h3 className="text-xl font-bold mb-4 text-white">Quick Links</h3>
-              <ul className="space-y-2 text-gray-400">
-                <li>
-                  <a href="/" className="hover:text-red-500 transition-colors">
-                    Home
-                  </a>
-                </li>
-                <li>
-                  <a href="/domain" className="hover:text-red-500 transition-colors">
-                    Domains
-                  </a>
-                </li>
-                <li>
-                  <a href="/#timeline" className="hover:text-red-500 transition-colors">
-                    Timeline
-                  </a>
-                </li>                
-                <li>
-                  <a href="/guidelines" className="hover:text-red-500 transition-colors">
-                    Guidelines
-                  </a>
-                </li>
-              </ul>
+              <div className="flex gap-8">
+                <div>
+                  <ul className="space-y-2 text-gray-400">
+                    <li>
+                      <a href="/" className="hover:text-red-500 transition-colors">
+                        Home
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/domain" className="hover:text-red-500 transition-colors">
+                        Domains
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/#timeline" className="hover:text-red-500 transition-colors">
+                        Timeline
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/guidelines" className="hover:text-red-500 transition-colors">
+                        Guidelines
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <ul className="space-y-2 text-gray-400">
+                    <li>
+                      <a href="/#prizes" className="hover:text-red-500 transition-colors">
+                        Prizes
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/team" className="hover:text-red-500 transition-colors">
+                        Team
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/results" className="hover:text-red-500 transition-colors">
+                        Result
+                      </a>
+                    </li>                    
+                  </ul>
+                </div>
+              </div>
             </div>
-
             <div>
               <h3 className="text-xl font-bold mb-4 text-white">Sponsors</h3>
               <div className="grid grid-cols-3 gap-4">
@@ -89,7 +111,7 @@ const SponsorLogo: React.FC<SponsorLogoProps> = ({ name }) => (
     />
     <p>{name}</p>
   </div>
-  
+
 );
 
 export default Footer;

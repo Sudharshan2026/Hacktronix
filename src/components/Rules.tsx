@@ -75,7 +75,7 @@ const Guidelines = () => {
         {rules.map((rule, index) => (
           <div
             key={index}
-            className="bg-gray-900/30 backdrop-blur-lg p-6 rounded-xl shadow-xl transition hover:scale-105"
+            className="bg-gray-900 p-6 rounded-xl shadow-xl transition-transform transform hover:scale-105"
           >
             {/* Rule Category */}
             <div className="flex items-center space-x-4">

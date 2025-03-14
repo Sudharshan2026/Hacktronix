@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import baffle from "baffle";
 import dragon from "./assets/dragondone.mp4";
-import brochure from "./assets/hackatronix brochure.pdf";
+import brochure from "./assets/brochure.pdf";
+
 import { UiverseButton, GlowingButton } from "./Buttons";
 
 interface TimeLeft {

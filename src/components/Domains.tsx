@@ -27,14 +27,21 @@ const Domains = () => {
 
   return (
     <div className="w-full max-w-2xl mx-auto p-6">
-      <div className="mb-6 text-center">
-        <h1 className="text-5xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-blue-600">
-          Problem Statement
-        </h1>
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <UiverseButton text="PPT_Template" href="https://docs.google.com/presentation/d/1nKZcI3bf1qQ3l2ifRkYlElMbTPchn-uXCpuAZXE7Sw4/edit?usp=sharing" />
-        </div>
-      </div>
+    <div className="mb-6 text-center">
+  <h1 className="text-5xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-blue-600">
+    Problem Statement
+  </h1>
+  {/* Full-width Horizontal Line */}
+  <div className="w-full border-t-2 border-red-600 my-4"></div>
+  <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+    <UiverseButton 
+      text="PPT_Template" 
+      href="https://docs.google.com/presentation/d/1nKZcI3bf1qQ3l2ifRkYlElMbTPchn-uXCpuAZXE7Sw4/edit?usp=sharing" 
+    />
+  </div>
+</div>
+
+
       {questions.map((q) => (
         <div key={q.id} className="mb-4 border-b pb-2">
           <div

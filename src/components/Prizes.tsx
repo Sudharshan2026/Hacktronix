@@ -2,6 +2,7 @@ import React from "react";
 import goldTrophy from "./assets/gold_trophy.jpeg";
 import silverTrophy from "./assets/silver_trophy.jpg";
 import bronzeTrophy from "./assets/bronze_trophy.png";
+import innovationTrophy from "./assets/WhatsApp Image 2025-03-14 at 22.32.03_1a6188a8.jpg";
 
 const Prizes: React.FC = () => {
   return (
@@ -21,7 +22,7 @@ const Prizes: React.FC = () => {
         <div className="flex flex-wrap justify-center gap-8">
           <PrizeCard imgSrc={silverTrophy} title="Second Prize" amount="₹7,000" bgColor="bg-gray-400 text-black" />
           <PrizeCard imgSrc={bronzeTrophy} title="Third Prize" amount="₹5,000" bgColor="bg-orange-500 text-black" />
-          <PrizeCard imgSrc={bronzeTrophy} title="Best Innovation" amount="₹2,000" bgColor="bg-orange-500 text-black" />          
+          <PrizeCard imgSrc={innovationTrophy} title="Best Innovation" amount="₹2,000" bgColor="bg-orange-500 text-black" />          
         </div>
       </div>
     </section>

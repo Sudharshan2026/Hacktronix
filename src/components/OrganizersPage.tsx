@@ -68,14 +68,14 @@ const OrganizersPage: React.FC = () => {
 
   const overallCoordinators: TeamMember[] = [
     { name: "Aruna Varsha", position: "Chairperson", image: "Aruna.jpg", linkedin: "https://www.linkedin.com/in/aruna-varsha-r-0827852a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
-    { name: "Prabhu S", position: "Chairperson", image: "Pradeep.jpg", linkedin: "https://www.linkedin.com/in/prabhu-s-b20018286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
-    { name: "Susharshan B", position: "Chairperson", image: "profile4.jpg", linkedin: "https://sudharshan2026.github.io/" }
+    { name: "Prabhu S", position: "Vice Chairperson", image: "pra.jpg", linkedin: "https://www.linkedin.com/in/prabhu-s-b20018286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
+    { name: "Susharshan B", position: "Vice Chairperson", image: "profile4.jpg", linkedin: "https://sudharshan2026.github.io/" }
   ];
 
   const webDevelopers: TeamMember[] = [
     { name: "Aravind M", position: "Web Developer", image: "ara.jpg", linkedin: "http://www.linkedin.com/in/aravind-m-1331062b7" },
-    { name: "Robin", position: "Web Developer", image: "Robin.jpg", linkedin: "https://www.linkedin.com/in/robin-s-041239292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
-    { name: "Aun Nehru S", position: "Web Developer", image: "Chellappan R.JPG", linkedin: "https://www.linkedin.com/in/arun-nehru-aa93aa271/" },
+    { name: "Robin S", position: "Web Developer", image: "Robin.jpg", linkedin: "https://www.linkedin.com/in/robin-s-041239292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
+    { name: "Arun Nehru S", position: "Web Developer", image: "Chellappan R.JPG", linkedin: "https://www.linkedin.com/in/arun-nehru-aa93aa271/" },
 
   ];
   // const secretaries: TeamMember[] = [
@@ -84,8 +84,8 @@ const OrganizersPage: React.FC = () => {
   // ];
 
   const poster: TeamMember[] = [
-    { name: "Pooja M", position: " ", image: "pooja.jpg", linkedin: "http://www.linkedin.com/in/pooja-m-88b89228b" },
     { name: "Krishna Kumar R", position: " ", image: "kkr.jpg", linkedin: "https://www.linkedin.com/in/krishna-kumar-data-analyst/" },
+    { name: "Pooja M", position: " ", image: "pooja.jpg", linkedin: "http://www.linkedin.com/in/pooja-m-88b89228b" },
     { name: "DAKSHINI K", position: " ", image: "Harini R.jpg", linkedin: "https://www.linkedin.com/in/dakshini-kannan-a8864a28a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" }
   ];
 

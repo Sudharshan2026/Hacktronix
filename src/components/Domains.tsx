@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { UiverseButton, GlowingButton } from "./Buttons";
+import { UiverseButton} from "./Buttons";
 
 type Question = {
   id: string;

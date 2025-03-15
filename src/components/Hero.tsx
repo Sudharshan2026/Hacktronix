@@ -95,7 +95,7 @@ const Hero: React.FC = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <GlowingButton text="Register Now" href="https://docs.google.com/forms/d/e/1FAIpQLScPE3vN7lG1mpiWXBLR73LenWZMm-zMRTLxK-Gb0vUHrlhjEg/viewform?usp=dialog" />
+              <GlowingButton text="Register Now" href="https://docs.google.com/forms/d/e/1FAIpQLSfG1mb6YvrWuT6T_5AWUj8lZ_CrInreJWsun6hGu89i2LBGfw/viewform?usp=dialog" />
               <UiverseButton text="Brochure" href={brochure} />
               <UiverseButton text="PPT_Template" href="https://docs.google.com/presentation/d/1nKZcI3bf1qQ3l2ifRkYlElMbTPchn-uXCpuAZXE7Sw4/edit?usp=sharing" />
             </div>

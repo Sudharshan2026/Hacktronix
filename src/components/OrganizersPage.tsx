@@ -71,7 +71,9 @@ const OrganizersPage: React.FC = () => {
     { name: "Prabhu S", position: "Vice Chairperson", image: "pra.jpg", linkedin: "https://www.linkedin.com/in/prabhu-s-b20018286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
     { name: "Susharshan B", position: "Vice Chairperson", image: "profile4.jpg", linkedin: "https://sudharshan2026.github.io/" }
   ];
-
+  const over: TeamMember[] = [
+    { name: "Susharshan B", position: "Vice Chairperson", image: "profile4.jpg", linkedin: "https://sudharshan2026.github.io/" }
+  ];
   const webDevelopers: TeamMember[] = [
     { name: "Aravind M", position: "Web Developer", image: "ara.jpg", linkedin: "http://www.linkedin.com/in/aravind-m-1331062b7" },
     { name: "Robin S", position: "Web Developer", image: "Robin.jpg", linkedin: "https://www.linkedin.com/in/robin-s-041239292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
@@ -109,11 +111,10 @@ const OrganizersPage: React.FC = () => {
         <TeamSection title="KEY PERSONS" members={keyPersons} />
         <TeamSection title="STAFF CO-ORDINATORS" members={staffCoordinators} /> 
         <TeamSection title="OVERALL CO-ORDINATORS" members={overallCoordinators} />
+        <TeamSection title="SECREATARIE" members={over} />
         <TeamSection title="WEB DEVELOPERS" members={webDevelopers} />
         <TeamSection title="POSTER TEAM" members={poster} />
         <TeamSection title="SPONSERSHIP TEAM" members={secretaries} />
-
-        {/* <TeamSection title="MEDIA TEAM" members={mediaTeam} /> */}
       </div>
     </div>
   );

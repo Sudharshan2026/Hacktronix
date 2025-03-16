@@ -78,15 +78,15 @@ const OrganizersPage: React.FC = () => {
     { name: "Arun Nehru S", position: "Web Developer", image: "Chellappan R.JPG", linkedin: "https://www.linkedin.com/in/arun-nehru-aa93aa271/" },
 
   ];
-  // const secretaries: TeamMember[] = [
-  //   { name: " S", position: "Secretary", image: "Surya.jpg" },
-  //   { name: " S", position: "Secretary", image: "Egadharshan.jpg", linkedin: "https://www.linkedin.com/in/egadarshan-s-8a6036242" }
-  // ];
+  const secretaries: TeamMember[] = [
+    // { name: " S", position: "Secretary", image: "Surya.jpg" },
+    { name: "Yashwanth Kumar R", position: "", image: "yash.jpg", linkedin: "https://www.linkedin.com/in/egadarshan-s-8a6036242" }
+  ];
 
   const poster: TeamMember[] = [
     { name: "Krishna Kumar R", position: " ", image: "kkr.jpg", linkedin: "https://www.linkedin.com/in/krishna-kumar-data-analyst/" },
     { name: "Pooja M", position: " ", image: "pooja.jpg", linkedin: "http://www.linkedin.com/in/pooja-m-88b89228b" },
-    { name: "DAKSHINI K", position: " ", image: "Harini R.jpg", linkedin: "https://www.linkedin.com/in/dakshini-kannan-a8864a28a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" }
+    { name: "DAKSHINI K", position: " ", image: "dak.jpg", linkedin: "https://www.linkedin.com/in/dakshini-kannan-a8864a28a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" }
   ];
 
 
@@ -110,7 +110,7 @@ const OrganizersPage: React.FC = () => {
         <TeamSection title="OVERALL CO-ORDINATORS" members={overallCoordinators} />
         <TeamSection title="WEB DEVELOPERS" members={webDevelopers} />
         <TeamSection title="POSTER TEAM" members={poster} />
-        {/* <TeamSection title="SECRETARIES" members={secretaries} /> */}
+        <TeamSection title="SPONSERSHIP TEAM" members={secretaries} />
 
         {/* <TeamSection title="MEDIA TEAM" members={mediaTeam} /> */}
       </div>

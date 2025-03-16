@@ -68,8 +68,7 @@ const OrganizersPage: React.FC = () => {
 
   const overallCoordinators: TeamMember[] = [
     { name: "Aruna Varsha", position: "Chairperson", image: "Aruna.jpg", linkedin: "https://www.linkedin.com/in/aruna-varsha-r-0827852a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
-    { name: "Prabhu S", position: "Vice Chairperson", image: "pra.jpg", linkedin: "https://www.linkedin.com/in/prabhu-s-b20018286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
-    { name: "Susharshan B", position: "Vice Chairperson", image: "profile4.jpg", linkedin: "https://sudharshan2026.github.io/" }
+    { name: "Prabhu S", position: "Vice Chairperson", image: "pra.jpg", linkedin: "https://www.linkedin.com/in/prabhu-s-b20018286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" }
   ];
   const over: TeamMember[] = [
     { name: "Susharshan B", position: "Vice Chairperson", image: "profile4.jpg", linkedin: "https://sudharshan2026.github.io/" }

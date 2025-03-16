@@ -75,12 +75,13 @@ const OrganizersPage: React.FC = () => {
   const webDevelopers: TeamMember[] = [
     { name: "Aravind M", position: "Web Developer", image: "ara.jpg", linkedin: "http://www.linkedin.com/in/aravind-m-1331062b7" },
     { name: "Robin S", position: "Web Developer", image: "Robin.jpg", linkedin: "https://www.linkedin.com/in/robin-s-041239292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
-    { name: "Arun Nehru S", position: "Web Developer", image: "Chellappan R.JPG", linkedin: "https://www.linkedin.com/in/arun-nehru-aa93aa271/" },
+    { name: "Arun Nehru S", position: "Web Developer", image: "arun.jpg", linkedin: "https://www.linkedin.com/in/arun-nehru-aa93aa271/" },
 
   ];
   const secretaries: TeamMember[] = [
     // { name: " S", position: "Secretary", image: "Surya.jpg" },
-    { name: "Yashwanth Kumar R", position: "", image: "yash.jpg", linkedin: "https://www.linkedin.com/in/egadarshan-s-8a6036242" }
+    { name: "Yashwanth Kumar R", position: "", image: "yash.jpg", linkedin: "https://www.linkedin.com/in/yashwanth-kumar-r-1156a2329" },
+    { name: "Nataraj EL", position: " ", image: "nat.jpg", linkedin: "https://www.linkedin.com/in/nataraj-el?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" }
   ];
 
   const poster: TeamMember[] = [

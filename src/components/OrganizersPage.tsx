@@ -63,7 +63,7 @@ const OrganizersPage: React.FC = () => {
   ];
     
   const staffCoordinators: TeamMember[] = [
-    { name: "Mrs.Madhivadhani D", position: "AI-DS", image: "Mam.jpg" }
+    { name: "Mrs.Madhivadhani D", position: "AI-DS", image: "Mam.jpg", linkedin: "https://www.linkedin.com/in/madhivadhani-d-972018319?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
   ];
 
   const overallCoordinators: TeamMember[] = [

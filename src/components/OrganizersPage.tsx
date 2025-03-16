@@ -107,8 +107,8 @@ const OrganizersPage: React.FC = () => {
           </h1>
           <div className="w-24 h-1 bg-red-500 mx-auto animate-expand-line-fast"></div>
         </div>
-        <TeamSection title="KEY PERSONS" members={keyPersons} />
-        <TeamSection title="STAFF CO-ORDINATORS" members={staffCoordinators} /> 
+        <TeamSection title="KEY PERSON" members={keyPersons} />
+        <TeamSection title="STAFF CO-ORDINATOR" members={staffCoordinators} /> 
         <TeamSection title="OVERALL CO-ORDINATORS" members={overallCoordinators} />
         <TeamSection title="SECREATARIE" members={over} />
         <TeamSection title="WEB DEVELOPERS" members={webDevelopers} />

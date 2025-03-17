@@ -83,7 +83,7 @@ const OrganizersPage: React.FC = () => {
     // { name: " S", position: "Secretary", image: "Surya.jpg" },
     { name: "Yashwanth Kumar R", position: "", image: "yash.jpg", linkedin: "https://www.linkedin.com/in/yashwanth-kumar-r-1156a2329" },
     { name: "Nataraj EL", position: " ", image: "nat.jpg", linkedin: "https://www.linkedin.com/in/nataraj-el?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
-    { name: "SUJITH S M’s profile ", position: "", image: "sujith.jpg", linkedin: "https://www.linkedin.com/in/sujith-s-m/" },
+    { name: "SUJITH S M", position: "", image: "sujith.jpg", linkedin: "https://www.linkedin.com/in/sujith-s-m/" },
     { name: "Mahalakshimi P", position: "", image: "maha.jpg" }
   ];
 

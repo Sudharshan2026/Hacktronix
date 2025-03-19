@@ -8,15 +8,17 @@ const Header: React.FC = () => {
   return (
     <header className="bg-black/80 backdrop-blur-sm sticky top-0 z-50 border-b border-red-900/30">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
-        <div className="flex items-center gap-4">
-          {/* College logo placeholder */}
-          <div className="w-18 h-12 rounded-full flex items-center justify-center overflow-hidden">
-            <img src={logo} alt="College Logo" className="w-full h-full object-cover object-center" />
-          </div>
-          <h1 className="text-xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-blue-600">
-            Hacktronix 1.0
-          </h1>
+      <div className="flex items-center gap-4">
+        {/* College logo placeholder */}
+        <div className="w-[72px] h-12 rounded-full flex items-center justify-center overflow-hidden">
+          <img src={logo} alt="College Logo" className="w-full h-full object-cover object-center" />
         </div>
+        <h1 className="text-xl md:text-2xl font-bold">
+          <a href="/" className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-blue-600">
+            Hacktronix 1.0
+          </a>
+        </h1>
+      </div>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8">

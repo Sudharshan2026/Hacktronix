@@ -47,10 +47,10 @@ export function TimelineSection() {
     { time: "March 12", title: "Problem Statements Unleashed", description: "Kickoff and problem statement reveal", date: "March 12, 2025" },
     { time: "March 13", title: "Registration Opens", description: "Registration for HackTronix begins", date: "March 13, 2025" },
     { time: "March 13", title: "Start of Idea Submission", description: "Participants start submitting their ideas", date: "March 13, 2025" },
-    { time: "April 9", title: "Idea Submission Deadline", description: "Round 1 ends at 11:59 PM", date: "April 9, 2025" },
-    { time: "April 10", title: "Finalists Announcement", description: "Top 30 teams are announced", date: "April 10, 2025" },
-    { time: "April 11 (8:00 PM)", title: "Round 2 Registration Starts", description: "Registration for the next round begins", date: "April 11, 2025" },
-    { time: "April 16-17", title: "Grand Finale", description: "Final round of HackTronix 1.0. Buckle up!", date: "April 16-17, 2025" },
+    { time: "April 4", title: "Idea Submission Deadline", description: "Round 1 ends at 11:59 PM", date: "April 4, 2025" },
+    { time: "April 5", title: "Finalists Announcement", description: "Top 30 teams are announced", date: "April 5, 2025" },
+    { time: "April 6 (8:00 PM)", title: "Round 2 Registration Starts", description: "Registration for the next round begins", date: "April 6, 2025" },
+    { time: "April 7-8", title: "Grand Finale", description: "Final round of HackTronix 1.0. Buckle up!", date: "April 7-8, 2025" },
   ];
 
   return (

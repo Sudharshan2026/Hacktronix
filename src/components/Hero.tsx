@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import baffle from "baffle";
 import dragon from "./assets/dragondone.mp4";
-import brochure from "./assets/brochure.pdf";
+import brochure from "./assets/HackTronix1.0_Brochure.pdf";
 import placeholderImage from "./assets/DRAGON.jpeg";
 import { UiverseButton, GlowingButton } from "./Buttons";
 

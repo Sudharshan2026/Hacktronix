@@ -18,9 +18,9 @@ const Description = () => {
         "Gain hands-on experience with cutting-edge technologies and enhance your problem-solving skills.",
     },
     {
-      title: "Exciting Prizes",
+      title: "Internship Opportunity",
       description:
-        "Win attractive prizes and potential internship opportunities with our sponsor companies.",
+        "Winners will receive an interview opportunity  upon selection g from interview, can join us for a real-time internship of 3 to 6 months.",
     },
   ];
 

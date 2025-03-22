@@ -1,9 +1,8 @@
-import React, { useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import baffle from "baffle";
 import dragon from "./assets/dragondone.mp4";
 import brochure from "./assets/brochure.pdf";
 import placeholderImage from "./assets/DRAGON.jpeg";
-
 import { UiverseButton, GlowingButton } from "./Buttons";
 
 interface TimeLeft {
@@ -12,6 +11,7 @@ interface TimeLeft {
   minutes: number;
   seconds: number;
 }
+
 
 const Hero: React.FC = () => {
   const targetDate: number = new Date("April 5, 2025 00:00:00").getTime();

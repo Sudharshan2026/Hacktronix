@@ -43,14 +43,14 @@ export function TimelineSection() {
   }, []);
 
   const timelineEvents = [
-    { time: "March 11", title: "HackTronix 1.0 Launch", description: "Official launch of HackTronix 1.0", date: "March 11, 2025" },
-    { time: "March 12", title: "Problem Statements Unleashed", description: "Kickoff and problem statement reveal", date: "March 12, 2025" },
-    { time: "March 13", title: "Registration Opens", description: "Registration for HackTronix begins", date: "March 13, 2025" },
-    { time: "March 13", title: "Start of Idea Submission", description: "Participants start submitting their ideas", date: "March 13, 2025" },
-    { time: "April 4", title: "Idea Submission Deadline", description: "Round 1 ends at 11:59 PM", date: "April 4, 2025" },
-    { time: "April 5", title: "Finalists Announcement", description: "Top 30 teams are announced", date: "April 5, 2025" },
-    { time: "April 6 (8:00 PM)", title: "Round 2 Registration Starts", description: "Registration for the next round begins", date: "April 6, 2025" },
-    { time: "April 7-8", title: "Grand Finale", description: "Final round of HackTronix 1.0. Buckle up!", date: "April 7-8, 2025" },
+    { time: "March 11, 2025", title: "HackTronix 1.0 Launch", description: "Official launch of HackTronix 1.0"},
+    { time: "March 12, 2025", title: "Problem Statements Unleashed", description: "Kickoff and problem statement reveal" },
+    { time: "March 13, 2025", title: "Registration Opens", description: "Registration for HackTronix begins"},
+    { time: "March 13, 2025", title: "Start of Idea Submission", description: "Participants start submitting their ideas"},
+    { time: "April 5, 2025", title: "Idea Submission Deadline", description: "Round 1 ends at 11:59 PM" },
+    { time: "April 5, 2025", title: "Finalists Announcement", description: "Top 30 teams are announced"},
+    { time: "April 6, 2025", title: "Round 2 Registration Starts", description: "Registration for the next round begins" },
+    { time: "April 7-8, 2025", title: "Grand Finale", description: "Final round of HackTronix 1.0. Buckle up!"},
   ];
 
   return (
@@ -89,7 +89,7 @@ export function TimelineSection() {
                 className={`w-full md:w-2/5 max-w-[300px] md:max-w-none bg-black/40 border border-red-700 text-white p-4 md:p-6 rounded-2xl shadow-xl transition-transform duration-500 ease-in-out hover:scale-105 hover:border-orange-400 hover:shadow-orange-500/50 ${index % 2 === 0 ? "md:ml-16" : "md:mr-16"
                   }`}
               >
-                <p className="text-xs md:text-sm font-semibold text-orange-400">{event.time} | {event.date}</p>
+                <p className="text-xs md:text-sm font-semibold text-orange-400">{event.time}</p>
                 <h3 className="text-lg md:text-xl font-bold text-red-400">{event.title}</h3>
                 <p className="text-gray-300 text-xs md:text-sm">{event.description}</p>
               </div>

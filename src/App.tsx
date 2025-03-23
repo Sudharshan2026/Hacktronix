@@ -23,17 +23,17 @@ function ScrollToHashElement() {
 function App() {
   // const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    // Prevent preloader from showing again
-    if (!sessionStorage.getItem("hasLoaded")) {
-      setTimeout(() => {
-        setLoading(false);
-        sessionStorage.setItem("hasLoaded", "true");
-      }, 3000);
-    } else {
-      setLoading(false);
-    }
-  }, []);
+  // useEffect(() => {
+  //   // Prevent preloader from showing again
+  // //   if (!sessionStorage.getItem("hasLoaded")) {
+  // //     setTimeout(() => {
+  // //       setLoading(false);
+  // //       sessionStorage.setItem("hasLoaded", "true");
+  // //     }, 3000);
+  // //   } else {
+  // //     setLoading(false);
+  // //   }
+  // // }, []);
 
   // if (loading) {
   //   return <Preloader />;

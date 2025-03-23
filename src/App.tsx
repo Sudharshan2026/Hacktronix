@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 import Hero from "./components/Hero";
 
@@ -21,7 +21,7 @@ function ScrollToHashElement() {
 }
 
 function App() {
-  const [loading, setLoading] = useState(true);
+  // const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     // Prevent preloader from showing again
